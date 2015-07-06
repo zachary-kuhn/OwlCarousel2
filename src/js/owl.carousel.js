@@ -534,7 +534,6 @@
 	 */
 	Owl.prototype.optionsLogic = function() {
 		if (this.settings.autoWidth) {
-			this.settings.stagePadding = false;
 			this.settings.merge = false;
 		}
 	};
